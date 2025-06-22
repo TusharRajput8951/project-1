@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar Motorcycle Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="marquee">
+            <marquee behavior="scroll" direction="left">WELCOME TO THE TUSHAR MOTORCYCLE CLUB</marquee>
+        </div>
+        <h2>ENDLESS ROADS, INFINITE DREAMS</h2>
+    </header>
+    <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-box">
+        <button class="search-button">🔍</button>
+    </div>
+    <section class="hero" id="home">
+        <img src="images/Biker background.jpg" alt="Biker gang riding" class="hero-image">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#gallery">PHOTO GALLERY</a></li>
+                <li><a href="#journal">ROAD JOURNAL</a></li>
+                <li><a href="#philosophy">PHILOSOPHY</a></li>
+                <li><a href="tshirt.html">T-SHIRT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section class="mission-container" id="mission">
+        <img src="images/bike.jpeg" alt="Tushar Motorcycle Club bike" class="mission-image">
+        <div class="mission-text">
+            <h2>Tushar Motorcycle Club Mission:</h2>
+            <p>To promote the existence of motorcycling as a way of life. To embody the story of the Indian road. To live as sovereign beings, resisting that and those who would limit our freedoms, virtuous as their causes may be. To create, explore and thrive in the ever changing landscape of motion.</p>
+        </div>
+    </section>
+    <section class="club-info">
+        <h1>THE TUSHAR MOTORCYCLE CLUB</h1>
+        <p>Founded in 2025 Tushar, who resides in Delhi, India brings his own unique perspective to its legacy.</p>
+    </section>
+    <section class="journal-section" id="journal">
+        <h1 class="section-title">ROAD JOURNAL</h1>
+        <div class="journal-grid">
+            <div class="journal-card">
+                <img src="images/img1.jpg" alt="Road journal entry 1" class="journal-image">
+                <a href="roadjournal1.html" class="btn">READ MORE</a>
+            </div>
+            <div class="journal-card">
+                <img src="images/img2.jpg" alt="Road journal entry 2" class="journal-image">
+                <a href="roadjournal2.html" class="btn">READ MORE</a>
+            </div>
+            <div class="journal-card">
+                <img src="images/img3.jpg" alt="Road journal entry 3" class="journal-image">
+                <a href="roadjournal3.html" class="btn">READ MORE</a>
+            </div>
+            <div class="journal-card">
+                <img src="images/img4.jpeg" alt="Road journal entry 4" class="journal-image">
+                <a href="roadjournal4.html" class="btn">READ MORE</a>
+            </div>
+            <div class="journal-card">
+                <img src="images/img5.jpg" alt="Road journal entry 5" class="journal-image">
+                <a href="roadjournal5.html" class="btn">READ MORE</a>
+            </div>
+        </div>
+    </section>
+    <section class="philosophy-section" id="philosophy">
+        <h1 class="section-title">PHILOSOPHY</h1>
+        <div class="philosophy-grid">
+            <div class="philosophy-card">
+                ... and that's when the strange music starts, when you stretch your luck so far that fear becomes exhilaration and vibrates along your arms, You can barely see at one hundred; the tears blow back so fast that they vaporise before they get to your ears... 
+                <br><br>- Hunter S. Thompson 
+            </div>
+            <div class="philosophy-card center">
+                Motion is the sign of life.
+                <br><br>- Swami Vivekananda 
+            </div>
+            <div class="philosophy-card center">
+                Every time I start thinking the world is all bad, then I start seeing people out there having a good time on motorcycles. It makes me take another look.
+                <br><br>- Steve McQueen
+            </div>
+        </div>
+        <div style="margin-top: 40px;">
+            <a href="Philosophy.html" class="btn">READ MORE</a>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <h1 class="gallery-title">PHOTO GALLERY</h1>
+        <div class="gallery-rows">
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="images/1.png" alt="Gallery photo 1" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/2.png" alt="Gallery photo 2" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/3.png" alt="Gallery photo 3" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/4.png" alt="Gallery photo 4" class="gallery-image">
+                </div>
+            </div>
+            <div class="gallery-row">
+                <div class="gallery-item">
+                    <img src="images/5.jpg" alt="Gallery photo 5" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/6.jpg" alt="Gallery photo 6" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/7.jpg" alt="Gallery photo 7" class="gallery-image">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/8.jpg" alt="Gallery photo 8" class="gallery-image">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="newsletter">
+        <h1>SUBSCRIBE TO NEWSLETTER</h1>
+        <p>Sign up with your email address to receive news and updates.</p>
+        <form class="subscribe-form" action="submit" method="POST">
+            <div class="form-group">
+                <label for="name">First Name:</label>
+                <input type="text" id="name" name="name" required placeholder="First Name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required placeholder="Last Name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Email" class="form-control">
+            </div>
+            <button type="submit" class="submit-btn">SUBMIT</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <div class="footer-links">
+            <a href="#home">HOME</a>
+            <a href="#gallery">PHOTO GALLERY</a>
+            <a href="#journal">ROAD JOURNAL</a>
+            <a href="#philosophy">PHILOSOPHY</a>
+            <a href="tshirt.html">T-SHIRT</a>
+            <a href="contact.html">CONTACT</a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2025 Tushar. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
